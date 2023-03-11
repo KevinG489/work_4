@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-
+import Header from './Components/Header';
+import Banner from './Components/Banner';
+import Body from './Components/Body';
+import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Banner
+     texto="Carreritas"
+     />
+     <Header
+     />
+     <Banner
+     texto="En sus Marcas, Listos y Fuera!!!"
+     />
+     <Body
+     titulo="Millas a Recorrer"
+     millas={[100,150,200,250]}
+     />
+     <Footer>
+      {96}
+      www.carreras.com.mx
+     </Footer>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.Banner{
+    background-color: rgb(50, 153, 37);
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2px + 2vmin);
+    color: rgb(10, 10, 10);
+}
